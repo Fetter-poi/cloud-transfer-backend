@@ -1,0 +1,25 @@
+{
+	"name": "cloud-transfer-backend",
+	"description": "File sharing and torrent downloading",
+	"repository": "https://github.com/Fetter-poi/cloud-transfer-backend",
+	"logo": "https://node-js-sample.herokuapp.com/node.png",
+	"keywords": [
+		"torrent",
+		"webtorrent",
+		"cloud"
+	],
+	"env": {
+		"client_id": {
+			"description": "The key to administrate the app.",
+			"required": true
+		},
+		"client_secret": {
+			"description": "The key to administrate the app.",
+			"required": true
+		}
+		"redirect_uri": {
+			"description": "The key to administrate the app.",
+			"required": true
+		}
+	}
+}
